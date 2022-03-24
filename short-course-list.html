@@ -75,23 +75,23 @@
                     <nav class="mt-2">
                         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false"> 
                             <li class="nav-item">
-                                <a href="admission-list-cyber.html" class="nav-link active">
-                                    <i class="nav-icon fal fa-poll-people"></i> 
-                                    <p>รายการการสมัครเรียน </p>
+                                <a href="admission-list1.html" class="nav-link ">
+                                    <i class="nav-icon fas fa-user-graduate"></i>
+                                    <p>CYBER UNIVERSITY ปริญญาตรี</p>
                                 </a> 
                             </li> 
-                            <!-- <li class="nav-item">
-                                <a href="admission-list2.html" class="nav-link">
-                                    <i class="nav-icon fas fa-user-check"></i>
-                                    <p>รายการรับสมัครที่ผ่านการพิจารณา</p>
+                            <li class="nav-item">
+                                <a href="admission-list2.html" class="nav-link ">
+                                    <i class="nav-icon far fa-user-graduate"></i>
+                                    <p>CYBER UNIVERSITY ปริญญาโท</p>
+                                </a> 
+                            </li> 
+                            <li class="nav-item">
+                                <a href="short-course-list.html" class="nav-link active">
+                                    <i class="nav-icon fas fa-file-certificate"></i>
+                                    <p>Short Course </p>
                                 </a> 
                             </li>  
-                            <li class="nav-item">
-                                <a href="admission-list3.html" class="nav-link">
-                                    <i class="nav-icon fal fa-poll-people"></i> 
-                                    <p>รายการรับสมัครที่ผ่านการพิจารณา</p>
-                                </a> 
-                            </li>    -->
                         </ul>
                     </nav> 
                 </div> 
@@ -102,7 +102,7 @@
                         <div class="row mb-2">
                             <div class="col-sm-6">
                                 <h1 class="m-0">
-                                    <strong>รายการการสมัครเรียน : CYBER UNIVERSITY </strong>  
+                                    <strong>รายการการสมัครเรียน : Short Course</strong>  
                                 </h1> 
                             </div>  
                         </div> 
@@ -116,11 +116,11 @@
                                 <li class="nav-item">
                                     <a class="nav-link active" href="#tab1" role="tab" data-toggle="tab">รายการการสมัครเรียน</a>
                                 </li> 
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a class="nav-link" href="#tab2" role="tab" data-toggle="tab">รายการเอกสารที่ตรวจแล้ว</a>
-                                </li>
+                                </li> -->
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#tab3" role="tab" data-toggle="tab">ผ่านการพิจารณา</a>
+                                    <a class="nav-link" href="#tab3" role="tab" data-toggle="tab">พิจาณารับเข้าแล้ว</a>
                                 </li>
                             </ul> 
             
@@ -130,143 +130,29 @@
                                     <div class="col-12 search-label">
                                         <div class="row">
                                             <div class="col-xl-3">
-                                                <label for="">หลักสูตร </label>
-                                                <select class="selectpicker form-control" title="หลักสูตร" data-show-subtext="true" data-live-search="true" name="sel1" id="sel1" width="100%"> 
-                                                    <option> สาขาคณะศิลปศาสตร์ คณะศิลปศาสตร์ ปริญญาตรี  (ไทย) </option>
-                                                    <option> สาขาภาษาญี่ปุ่น คณะศิลปศาสตร์ ปริญญาตรี  (ไทย) </option>
-                                                    <option> สาขาภาษาไทยเพื่อการสื่อสาร คณะศิลปศาสตร์ ปริญญาตรี  (ไทย) </option> 
-                                                    <option> สาขาภาษาอังกฤษ คณะศิลปศาสตร์ ปริญญาตรี  (ไทย) </option> 
-                                                    <option> สาขาภาษาจีน  คณะศิลปศาสตร์ ปริญญาตรี  (ไทย) </option> 
-                                                    <option> สาขาคณะบริหารธุรกิจ คณะบริหารธุรกิจ ปริญญาตรี  (ไทย) </option> 
-                                                    <option> สาขาการจัดการอุตสาหกรรม คณะบริหารธุรกิจ ปริญญาตรี  (ไทย) </option> 
-                                                    <option> สาขาธุรกิจดิจิทัล คณะบริหารธุรกิจ ปริญญาตรี  (ไทย) </option> 
-                                                    <option> สาขารังสีเทคนิค คณะรังสีเทคนิค ปริญญาตรี  (ไทย) </option> 
+                                                <label for="">ชื่อคอร์ส </label>
+                                                <select class="selectpicker form-control" title="ชื่อคอร์ส" data-show-subtext="true" data-live-search="true" name="sel1" id="sel1" width="100%"> 
+                                                    <option> Short Course 1</option> 
+                                                    <option> Short Course 2</option> 
+                                                    <option> Short Course 3</option> 
+                                                    <option> Short Course 4</option> 
+                                                    <option> Short Course 5</option> 
                                                 </select>
                                             </div> 
 
                                             <div class="col-xl-3">
-                                                <label for="">สถานะ </label>
-                                                <select class="selectpicker form-control" title="สถานะ" data-show-subtext="true" data-live-search="true" name="sel1" id="sel1" width="100%"> 
-                                                    <option>รับเงินค่าสมัครรอนัดวันสัมภาษณ์ </option> 
-                                                    <option>รอตรวจสอบเอกสาร</option> 
-                                                    <option>รอชำระค่าใบสมัคร </option> 
-                                                    <option>ตรวจสอบเอกสารแล้ว </option>  
+                                                <label for="">หน่วยงาน </label>
+                                                <select class="selectpicker form-control" title="หน่วยงาน" data-show-subtext="true" data-live-search="true" name="sel1" id="sel1" width="100%"> 
+                                                    <option>หน่วยงาน </option> 
+                                                    <option>หน่วยงาน</option> 
+                                                    <option>หน่วยงาน </option> 
+                                                    <option>หน่วยงาน </option>  
                                                 </select>
                                             </div> 
-                                            <!-- <div class="col-xl-2">
-                                                <label for="">ชื่ออาจารย์ที่ปรึกษา </label>
+                                            <div class="col-xl-3">
+                                                <label for="">ชื่อผู้สมัคร </label>
                                                 <input type="text" class="form-control"  >
-                                            </div>  -->
-                                            <div class="col-xl-2"> 
-                                                <label class="col-12">&nbsp; </label>
-                                                <button href="form-student-group.html" class="btn btn-primary btn-sm pt-2 ">  <i class="far fa-search"></i> ค้นหา
-                                                </button> 
                                             </div> 
-                                        </div>
-                                    </div> 
-
-                                    <br>
-
-                                    <div class="col-12 table-responsive"> 
-                                        <table class="table table-striped">
-                                            <thead>
-                                                <tr>
-                                                    <th>#</th>
-                                                    <th>เลขที่ผู้สมัคร</th>
-                                                    <th>ชื่อผู้สมัคร</th>
-                                                    <th>หลักสูตร</th>
-                                                    <th>โครงการ</th>
-                                                    <th>วันที่สมัคร</th>
-                                                    <th>สถานะการสมัคร</th>
-                                                    <th>&nbsp;</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                
-                                                <tr>
-                                                    <td>1</td>
-                                                    <td>02112565001</td>
-                                                    <td>นายอดิศร ศรีสุธรรม</td>
-                                                    <td>นิติศาสตรบัณฑิต</td>
-                                                    <td>CYBER UNIVERSITY </td>
-                                                    <td>10/02/2565 </td>
-                                                    <td>รอตรวจสอบเอกสาร </td>
-                                                    <td>
-                                                        <a href="admission-description2-cyber.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
-                                                    </td>
-                                                </tr> 
-                                                <tr>
-                                                    <td>2</td>
-                                                    <td>02112565001</td>
-                                                    <td>นายอดิศร ศรีสุธรรม</td>
-                                                    <td>นิติศาสตรบัณฑิต</td>
-                                                    <td>CYBER UNIVERSITY </td>
-                                                    <td>10/02/2565 </td>
-                                                    <td><span class="text-danger">รอแก้ไขเอกสาร</span></td>
-                                                    <td>
-                                                        <a href="#" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
-                                                    </td>
-                                                </tr>  
-                                                <tr>
-                                                    <td>3</td>
-                                                    <td>02112565001</td>
-                                                    <td>นายอดิศร ศรีสุธรรม</td>
-                                                    <td>นิติศาสตรบัณฑิต</td>
-                                                    <td>CYBER UNIVERSITY </td>
-                                                    <td>10/02/2565 </td>
-                                                    <td class="text-primary"><span>ชำระค่าลลงทะเบียนแล้ว</span> </td>
-                                                    <td>
-                                                        <a href="admission-description1-cyber.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
-                                                    </td>
-                                                </tr> 
-                                                <tr>
-                                                    <td>4</td>
-                                                    <td>02112565001</td>
-                                                    <td>นายอดิศร ศรีสุธรรม</td>
-                                                    <td>นิติศาสตรบัณฑิต</td>
-                                                    <td>CYBER UNIVERSITY </td>
-                                                    <td>10/02/2565 </td>
-                                                    <td><span class="text-info">รอการชำระงวด ที่ 1</span></td>
-                                                    <td>
-                                                        <a href="#" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
-                                                    </td>
-                                                </tr>   
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div> 
-                                <div role="tabpanel" class="tab-pane fade" id="tab2">
-                                    <br>
-                                    <div class="col-12 search-label">
-                                        <div class="row">
-                                            <div class="col-xl-3">
-                                                <label for="">หลักสูตร </label>
-                                                <select class="selectpicker form-control" title="หลักสูตร" data-show-subtext="true" data-live-search="true" name="sel1" id="sel1" width="100%"> 
-                                                    <option>ทั้งหมด </option> 
-                                                    <option> สาขาคณะศิลปศาสตร์ คณะศิลปศาสตร์ ปริญญาตรี  (ไทย) </option>
-                                                    <option> สาขาภาษาญี่ปุ่น คณะศิลปศาสตร์ ปริญญาตรี  (ไทย) </option>
-                                                    <option> สาขาภาษาไทยเพื่อการสื่อสาร คณะศิลปศาสตร์ ปริญญาตรี  (ไทย) </option> 
-                                                    <option> สาขาภาษาอังกฤษ คณะศิลปศาสตร์ ปริญญาตรี  (ไทย) </option> 
-                                                    <option> สาขาภาษาจีน  คณะศิลปศาสตร์ ปริญญาตรี  (ไทย) </option> 
-                                                    <option> สาขาคณะบริหารธุรกิจ คณะบริหารธุรกิจ ปริญญาตรี  (ไทย) </option> 
-                                                    <option> สาขาการจัดการอุตสาหกรรม คณะบริหารธุรกิจ ปริญญาตรี  (ไทย) </option> 
-                                                    <option> สาขาธุรกิจดิจิทัล คณะบริหารธุรกิจ ปริญญาตรี  (ไทย) </option> 
-                                                    <option> สาขารังสีเทคนิค คณะรังสีเทคนิค ปริญญาตรี  (ไทย) </option> 
-                                                </select>
-                                            </div> 
-
-                                            <div class="col-xl-3">
-                                                <label for="">สถานะ </label>
-                                                <select class="selectpicker form-control" title="สถานะ" data-show-subtext="true" data-live-search="true" name="sel1" id="sel1" width="100%"> 
-                                                    <option>ทั้งหมด </option>  
-                                                    <option>ยืนยันวันสัมภาษณ์ </option> 
-                                                    <option>รอพิจารณารับเข้า	 </option>  
-                                                </select>
-                                            </div> 
-                                            <!-- <div class="col-xl-2">
-                                                <label for="">ชื่ออาจารย์ที่ปรึกษา </label>
-                                                <input type="text" class="form-control"  >
-                                            </div>  -->
                                             <div class="col-xl-2"> 
                                                 <label class="col-12">&nbsp; </label>
                                                 <button href="form-student-group.html" class="btn btn-primary btn-sm pt-2 ">  <i class="far fa-search"></i> ค้นหา
@@ -284,19 +170,21 @@
                                                     <th>
                                                         <div class="custom-control custom-checkbox">
                                                             <input class="custom-control-input chk-th" type="checkbox" id="chkAll">
-                                                            <label for="chkAll" class="custom-control-label ">เลือกทั้งหมด</label>
+                                                            <label for="chkAll" class="custom-control-label ">ทั้งหมด</label>
                                                         </div>
                                                     </th>
+                                                    <th>#</th>
                                                     <th>เลขที่ผู้สมัคร</th>
                                                     <th>ชื่อผู้สมัคร</th>
-                                                    <th>หลักสูตร</th>
-                                                    <th>โครงการ</th>
-                                                    <th>วันที่นัดหมายสัมภาษณ์</th>
-                                                    <th>สถานะการสมัคร</th>
+                                                    <th>ชื่อคอร์ส</th>
+                                                    <th>เจ้าของหลักสูตร/หน่วยงาน </th>
+                                                    <th>ค่าลงทะเบียน </th>
+                                                    <th>วันที่สมัคร</th>
+                                                    <th>สถานะ</th>
                                                     <th>&nbsp;</th>
                                                 </tr>
                                             </thead>
-                                            <tbody>
+                                            <tbody> 
                                                 <tr>
                                                     <td>
                                                         <div class="custom-control custom-checkbox">
@@ -304,87 +192,132 @@
                                                             <label for="chk1" class="custom-control-label"> </label>
                                                         </div>
                                                     </td> 
+                                                    <td>1</td>
                                                     <td>02112565001</td>
                                                     <td>นายอดิศร ศรีสุธรรม</td>
-                                                    <td>นิติศาสตรบัณฑิต	</td>
-                                                    <td>CYBER UNIVERSITY </td>
+                                                    <td>Happiness Mastery 30 วัน</td>
+                                                    <td>คณะบัญชี</td>
+                                                    <td>5,900 บาท</td>
                                                     <td>10/02/2565 </td>
-                                                    <td class="text-primary"><span>ยืนยันวันสัมภาษณ์</span> </td>
+                                                    <td>รอรับเข้า </td>
                                                     <td>
-                                                        <a href="admission-description-interview.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
+                                                        <a href="short-course1.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
                                                     </td>
                                                 </tr>  
                                                 <tr>
                                                     <td>
                                                         <div class="custom-control custom-checkbox">
-                                                            <input class="custom-control-input chk-td" type="checkbox" id="chk2">
-                                                            <label for="chk2" class="custom-control-label"> </label>
+                                                            <input class="custom-control-input chk-td" type="checkbox" id="chk1">
+                                                            <label for="chk1" class="custom-control-label"> </label>
                                                         </div>
                                                     </td> 
+                                                    <td>2</td>
                                                     <td>02112565001</td>
                                                     <td>นายอดิศร ศรีสุธรรม</td>
-                                                    <td>นิติศาสตรบัณฑิต	</td>
-                                                    <td>CYBER UNIVERSITY </td>
+                                                    <td>Happiness Mastery 30 วัน</td>
+                                                    <td>คณะบัญชี</td>
+                                                    <td>5,900 บาท</td>
                                                     <td>10/02/2565 </td>
-                                                    <td class="text-primary"><span>ยืนยันวันสัมภาษณ์</span> </td>
+                                                    <td>รอรับเข้า </td>
                                                     <td>
-                                                        <a href="admission-description-interview.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
+                                                        <a href="short-course1.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
                                                     </td>
                                                 </tr>  
                                                 <tr>
                                                     <td>
                                                         <div class="custom-control custom-checkbox">
-                                                            <input class="custom-control-input chk-td" type="checkbox" id="chk3">
-                                                            <label for="chk3" class="custom-control-label"> </label>
+                                                            <input class="custom-control-input chk-td" type="checkbox" id="chk1">
+                                                            <label for="chk1" class="custom-control-label"> </label>
                                                         </div>
                                                     </td> 
+                                                    <td>3</td>
                                                     <td>02112565001</td>
                                                     <td>นายอดิศร ศรีสุธรรม</td>
-                                                    <td>นิติศาสตรบัณฑิต	</td>
-                                                    <td>CYBER UNIVERSITY </td>
+                                                    <td>Happiness Mastery 30 วัน</td>
+                                                    <td>คณะบัญชี</td>
+                                                    <td>5,900 บาท</td>
                                                     <td>10/02/2565 </td>
-                                                    <td class="text-primary"><span>ยืนยันวันสัมภาษณ์</span> </td>
+                                                    <td>รอรับเข้า </td>
                                                     <td>
-                                                        <a href="admission-description-interview.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
+                                                        <a href="short-course1.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
                                                     </td>
                                                 </tr>  
+                                                <tr>
+                                                    <td>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input class="custom-control-input chk-td" type="checkbox" id="chk1">
+                                                            <label for="chk1" class="custom-control-label"> </label>
+                                                        </div>
+                                                    </td> 
+                                                    <td>4</td>
+                                                    <td>02112565001</td>
+                                                    <td>นายอดิศร ศรีสุธรรม</td>
+                                                    <td>Happiness Mastery 30 วัน</td>
+                                                    <td>คณะบัญชี</td>
+                                                    <td>5,900 บาท</td>
+                                                    <td>10/02/2565 </td>
+                                                    <td>รอรับเข้า </td>
+                                                    <td>
+                                                        <a href="short-course1.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
+                                                    </td>
+                                                </tr>  
+                                                <tr>
+                                                    <td>
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input class="custom-control-input chk-td" type="checkbox" id="chk1">
+                                                            <label for="chk1" class="custom-control-label"> </label>
+                                                        </div>
+                                                    </td> 
+                                                    <td>5</td>
+                                                    <td>02112565001</td>
+                                                    <td>นายอดิศร ศรีสุธรรม</td>
+                                                    <td>Happiness Mastery 30 วัน</td>
+                                                    <td>คณะบัญชี</td>
+                                                    <td>5,900 บาท</td>
+                                                    <td>10/02/2565 </td>
+                                                    <td>รอรับเข้า </td>
+                                                    <td>
+                                                        <a href="short-course1.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
+                                                    </td>
+                                                </tr>  
+                                                
+                                                
+
+
                                             </tbody>
                                         </table>
-                                        <button class="btn btn-info pt-2">รับนักศึกษาเข้า</button>
+                                        
+                                        <button class="btn btn-info pt-2" data-toggle="modal" data-target="#myModal1">รับเข้า</button>
                                     </div>
-                                </div> 
+                                </div>  
                                 <div role="tabpanel" class="tab-pane fade" id="tab3">
                                     <br>
                                     <div class="col-12 search-label">
                                         <div class="row">
                                             <div class="col-xl-3">
-                                                <label for="">หลักสูตร </label>
-                                                <select class="selectpicker form-control" title="หลักสูตร" data-show-subtext="true" data-live-search="true" name="sel1" id="sel1" width="100%"> 
-                                                    <option> สาขาคณะศิลปศาสตร์ คณะศิลปศาสตร์ ปริญญาตรี  (ไทย) </option>
-                                                    <option> สาขาภาษาญี่ปุ่น คณะศิลปศาสตร์ ปริญญาตรี  (ไทย) </option>
-                                                    <option> สาขาภาษาไทยเพื่อการสื่อสาร คณะศิลปศาสตร์ ปริญญาตรี  (ไทย) </option> 
-                                                    <option> สาขาภาษาอังกฤษ คณะศิลปศาสตร์ ปริญญาตรี  (ไทย) </option> 
-                                                    <option> สาขาภาษาจีน  คณะศิลปศาสตร์ ปริญญาตรี  (ไทย) </option> 
-                                                    <option> สาขาคณะบริหารธุรกิจ คณะบริหารธุรกิจ ปริญญาตรี  (ไทย) </option> 
-                                                    <option> สาขาการจัดการอุตสาหกรรม คณะบริหารธุรกิจ ปริญญาตรี  (ไทย) </option> 
-                                                    <option> สาขาธุรกิจดิจิทัล คณะบริหารธุรกิจ ปริญญาตรี  (ไทย) </option> 
-                                                    <option> สาขารังสีเทคนิค คณะรังสีเทคนิค ปริญญาตรี  (ไทย) </option> 
+                                                <label for="">ชื่อคอร์ส </label>
+                                                <select class="selectpicker form-control" title="ชื่อคอร์ส" data-show-subtext="true" data-live-search="true" name="sel1" id="sel1" width="100%"> 
+                                                    <option> Short Course 1</option> 
+                                                    <option> Short Course 2</option> 
+                                                    <option> Short Course 3</option> 
+                                                    <option> Short Course 4</option> 
+                                                    <option> Short Course 5</option> 
                                                 </select>
                                             </div> 
 
                                             <div class="col-xl-3">
-                                                <label for="">สถานะ </label>
-                                                <select class="selectpicker form-control" title="สถานะ" data-show-subtext="true" data-live-search="true" name="sel1" id="sel1" width="100%"> 
-                                                    <option>ทั้งหมด </option> 
-                                                    <option>รอสอบข้อเขียน</option> 
-                                                    <option>ผ่านการสอบข้อเขียน</option> 
-                                                    <option>ไม่ผ่านการพิจารณา</option>  
+                                                <label for="">หน่วยงาน </label>
+                                                <select class="selectpicker form-control" title="หน่วยงาน" data-show-subtext="true" data-live-search="true" name="sel1" id="sel1" width="100%"> 
+                                                    <option>หน่วยงาน </option> 
+                                                    <option>หน่วยงาน</option> 
+                                                    <option>หน่วยงาน </option> 
+                                                    <option>หน่วยงาน </option>  
                                                 </select>
                                             </div> 
-                                            <!-- <div class="col-xl-2">
-                                                <label for="">ชื่ออาจารย์ที่ปรึกษา </label>
+                                            <div class="col-xl-3">
+                                                <label for="">ชื่อผู้สมัคร </label>
                                                 <input type="text" class="form-control"  >
-                                            </div>  -->
+                                            </div> 
                                             <div class="col-xl-2"> 
                                                 <label class="col-12">&nbsp; </label>
                                                 <button href="form-student-group.html" class="btn btn-primary btn-sm pt-2 ">  <i class="far fa-search"></i> ค้นหา
@@ -398,82 +331,89 @@
                                     <div class="col-12 table-responsive"> 
                                         <table class="table table-striped">
                                             <thead>
-                                                <tr>
+                                                <tr> 
                                                     <th>#</th>
                                                     <th>เลขที่ผู้สมัคร</th>
                                                     <th>ชื่อผู้สมัคร</th>
-                                                    <th>หลักสูตร</th>
-                                                    <th>โครงการ</th>
-                                                    <th>วันที่</th>
-                                                    <th>สถานะการสมัคร</th>
+                                                    <th>ชื่อคอร์ส</th>
+                                                    <th>เจ้าของหลักสูตร/หน่วยงาน </th>
+                                                    <th>ค่าลงทะเบียน </th>
+                                                    <th>วันที่สมัคร</th>
+                                                    <th>สถานะ</th>
                                                     <th>&nbsp;</th>
                                                 </tr>
                                             </thead>
-                                            <tbody>
-                                                <tr>
+                                            <tbody> 
+                                                <tr> 
                                                     <td>1</td>
                                                     <td>02112565001</td>
                                                     <td>นายอดิศร ศรีสุธรรม</td>
-                                                    <td>นิติศาสตรบัณฑิต	</td>
-                                                    <td>CYBER UNIVERSITY </td>
+                                                    <td>Happiness Mastery 30 วัน</td>
+                                                    <td>คณะบัญชี</td>
+                                                    <td>5,900 บาท</td>
                                                     <td>10/02/2565 </td>
-                                                    <td class="text-dark"><span>รอสอบข้อเขียน</span> </td>
+                                                    <td><span class="text-success">รับเข้าแล้ว</span> </td>
                                                     <td>
-                                                        <a href="admission-description-test.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
+                                                        <a href="short-course2.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
                                                     </td>
-                                                </tr> 
-                                                <tr>
+                                                </tr>  
+                                                <tr> 
                                                     <td>2</td>
                                                     <td>02112565001</td>
                                                     <td>นายอดิศร ศรีสุธรรม</td>
-                                                    <td>นิติศาสตรบัณฑิต	</td>
-                                                    <td>CYBER UNIVERSITY </td>
+                                                    <td>Happiness Mastery 30 วัน</td>
+                                                    <td>คณะบัญชี</td>
+                                                    <td>5,900 บาท</td>
                                                     <td>10/02/2565 </td>
-                                                    <td class="text-dark"><span>รอสอบข้อเขียน</span> </td>
+                                                    <td><span class="text-success">รับเข้าแล้ว</span> </td>
                                                     <td>
-                                                        <a href="admission-description-test.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
+                                                        <a href="short-course2.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
                                                     </td>
-                                                </tr> 
-                                                <tr>
+                                                </tr>  
+                                                <tr> 
                                                     <td>3</td>
                                                     <td>02112565001</td>
                                                     <td>นายอดิศร ศรีสุธรรม</td>
-                                                    <td>นิติศาสตรบัณฑิต	</td>
-                                                    <td>CYBER UNIVERSITY </td>
+                                                    <td>Happiness Mastery 30 วัน</td>
+                                                    <td>คณะบัญชี</td>
+                                                    <td>5,900 บาท</td>
                                                     <td>10/02/2565 </td>
-                                                    <td class="text-primary"><span>รอแจ้งผลการสอบ</span> </td>
+                                                    <td><span class="text-success">รับเข้าแล้ว</span> </td>
                                                     <td>
-                                                        <a href="admission-description-wait2.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
+                                                        <a href="short-course2.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
                                                     </td>
-                                                </tr> 
-                                                <tr>
+                                                </tr>  
+                                                <tr> 
                                                     <td>4</td>
                                                     <td>02112565001</td>
                                                     <td>นายอดิศร ศรีสุธรรม</td>
-                                                    <td>นิติศาสตรบัณฑิต	</td>
-                                                    <td>CYBER UNIVERSITY </td>
+                                                    <td>Happiness Mastery 30 วัน</td>
+                                                    <td>คณะบัญชี</td>
+                                                    <td>5,900 บาท</td>
                                                     <td>10/02/2565 </td>
-                                                    <td> <span class="text-success">ผ่านการสอบข้อเขียน</span> </td>
+                                                    <td><span class="text-success">รับเข้าแล้ว</span> </td>
                                                     <td>
-                                                        <a href="admission-description-test-app.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
+                                                        <a href="short-course2.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
                                                     </td>
-                                                </tr> 
-                                                <tr>
+                                                </tr>  
+                                                <tr> 
                                                     <td>5</td>
                                                     <td>02112565001</td>
                                                     <td>นายอดิศร ศรีสุธรรม</td>
-                                                    <td>นิติศาสตรบัณฑิต	</td>
-                                                    <td>CYBER UNIVERSITY </td>
+                                                    <td>Happiness Mastery 30 วัน</td>
+                                                    <td>คณะบัญชี</td>
+                                                    <td>5,900 บาท</td>
                                                     <td>10/02/2565 </td>
-                                                    <td><span class="text-danger">ไม่ผ่านการพิจารณา</span></td>
+                                                    <td><span class="text-success">รับเข้าแล้ว</span> </td>
                                                     <td>
-                                                        <a href="admission-description-test-fail.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
+                                                        <a href="short-course2.html" class="btn btn-primary btn-sm"><i class="fal fa-file-alt"></i></a> 
                                                     </td>
-                                                </tr>    
+                                                </tr>  
+                                                 
                                             </tbody>
-                                        </table>
+                                        </table> 
                                     </div>
-                                </div>  
+                                </div>   
                             </div>       
                         </div>
                     </div> 
@@ -486,6 +426,30 @@
                 </div>
             </footer>  
         </div> 
+
+
+        <div class="modal fade" id="myModal1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <!-- Modal Header --> 
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="col text-center pt-5">
+                            <h1><i class="fas fa-check-circle text-success"></i></h1>
+                            <h2 class="text-success">ยืนยันรับเข้าเรียน</h2>
+                            
+                        </div>
+                    </div>
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <div class="col text-center">
+                            <a href="short-course-list.html"  class="btn btn-success mr-3">ยืนยัน</a>
+                            <button  class="btn btn-outline-secondary" data-dismiss="modal">ยกเลิก</ิ>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <!-- jQuery -->
