@@ -196,7 +196,9 @@ header nav .navbar-brand img{
   font-size: 18px;
 }
 
-.formRow--input-wrapper.active .formRow--input:not(:focus):not(:hover) ~ .placeholder { color: #39bbd7; }
+.formRow--input-wrapper.active .formRow--input:not(:focus):not(:hover) ~ .placeholder { 
+  color: #39bbd7; 
+}
 
 .formRow--input-wrapper .formRow--input:focus, .formRow--input-wrapper .formRow--input:hover { border-color: #39bbd7; }
 
@@ -220,6 +222,7 @@ header nav .navbar-brand img{
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  z-index: 99 !important;
 }
 .formRow .form-control{
   height: 55px;
@@ -497,7 +500,13 @@ header nav .navbar-brand img{
   top: 50%;
 }
 
-
+.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle ,.btn-light.focus, .btn-light:focus{
+  background-color: #fff;
+} 
+.btn-light:hover{
+  background-color: #fff;
+}
+ 
 @media only screen and (max-width: 991px) { /* MOBILE */ 
   header nav .navbar-brand{
     font-size: 16px;
